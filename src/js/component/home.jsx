@@ -13,9 +13,8 @@ const Home = () => {
         <Navbar />
 		    <div className="container">
                 <Jumbotron />
-                <Card />
-                <Card />
-                <Card />
+               
+                
 
 		    </div>
         <footer className="footer">
