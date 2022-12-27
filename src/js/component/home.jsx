@@ -4,6 +4,7 @@ import { Carousel } from "./Carousel.jsx";
 
 //include images into your bundle
 
+
 //create your first component
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <Navbar />
       <div>
         <div>
-          <Carousel imageUrl="https://images.unsplash.com/photo-1620295153878-8e6026f3be98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGlzY2lwbGluZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+          <Carousel imageUrl="./Beto.jpg"
           imageUrl2="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aGFyZCUyMHdvcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
           imageUrl3="https://images.unsplash.com/photo-1607523751915-5291fab91551?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRpc2NpcGxpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"/>
         </div>
