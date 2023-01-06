@@ -1,7 +1,8 @@
 import React from "react";
 
 export const Carousel = (props) => {
-  const cardProps = [{projectTitle: "Excuse Generator"}]
+  const cardProps = [{projectTitle: "Excuse Generator", projectImage: "imageUrl1" , projectDescripion: "generates random xcuses"}]
+
   return (
     <div
       id="carouselExampleCaptions"
