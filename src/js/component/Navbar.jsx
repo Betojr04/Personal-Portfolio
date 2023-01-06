@@ -4,7 +4,7 @@ import React from "react";
 
 export const Navbar = () => {
     return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container">
       <a className="navbar-brand" href="#">
         Alberto Valtierra Jr

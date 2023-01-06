@@ -17,8 +17,8 @@ const Home = () => {
           imageUrl3="https://images.unsplash.com/photo-1607523751915-5291fab91551?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRpc2NpcGxpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"/>
         </div>
       </div>
-      <footer className="footer bg-dark p-3">
-        <p className="text-center text-white">Alberto Valtierra Jr</p>
+      <footer className="footer navbar-light p-3">
+        <p className="text-center">Alberto Valtierra Jr</p>
       </footer>
     </div>
   );
