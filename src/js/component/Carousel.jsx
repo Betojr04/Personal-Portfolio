@@ -32,9 +32,12 @@ export const Carousel = (props) => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={props.imageUrl} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-flex flex-column justify-content-center text-end h-100">
-            <h3>About Me</h3>
-            <p>Full-Stack Software Developer</p>
+          <div className="carousel-caption d-flex align-items-center justify-content-between text-end h-100">
+            <img className="img-fluid col-4" src="https://images.unsplash.com/photo-1513682121497-80211f36a7d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <div className="">
+              <h3>About Me</h3>
+              <p>Full-Stack Software Developer</p>
+            </div>
           </div>
         </div>
         <div className="carousel-item">
