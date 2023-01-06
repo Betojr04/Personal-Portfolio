@@ -33,8 +33,8 @@ export const Carousel = (props) => {
         <div className="carousel-item active">
           <img src={props.imageUrl} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-flex flex-column justify-content-center text-end h-100">
-            <h3>Full Stack Web Developer</h3>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h3>About Me</h3>
+            <p>Full-Stack Software Developer</p>
           </div>
         </div>
         <div className="carousel-item">
